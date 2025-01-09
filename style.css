@@ -1,5 +1,7 @@
 body {
-  background: linear-gradient(135deg, #ff9a8b, #ff6a88);
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  ;
   display: flex;
   justify-content: center;
   align-items: center;
