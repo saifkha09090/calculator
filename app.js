@@ -1,4 +1,5 @@
 let arr = ["+", "-", "*", "/", "%", "."];
+let firstNum = ["0", "*", "/", "%", "."]
 
 function calculator(val) {
   let input = document.getElementById("input");
@@ -13,7 +14,7 @@ function calculator(val) {
     input.value = "";
   } else if (val === "X") {
     input.value = input.value.slice(0, -1);
-  } else if (firstVal === "0" || firstVal === ".") {
+  } else if (firstNum.includes(firstVal)) {
     input.value = input.value.slice(1);
     input.value = val;
   } else if (val === "=") {
